@@ -1,0 +1,27 @@
+/*-- Adjust images in the URL section --*/
+.heroImage {
+    background: linear-gradient(rgba(0, 0, 0), rgba(20, 20, 20, .4)), url(images/burrito.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0px 100px;
+    height: 100%;
+    width: 100%;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+.twoImage {
+    background-image: url('images/burrito02.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
