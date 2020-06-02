@@ -46,7 +46,7 @@
 
         <!-- Modify Hero Image Statment Here -->
         <div class="heroImage container-fluid elementToFadeInAndOut">
-            <h1 class="leader">Serving Southern Indian and Mexican Food... <br><!-- Statement -->
+            <h1>Serving Southern Indian and Mexican Food... <br><!-- Statement -->
                 Stuffed in a Tortilla from our Food Cart!</h1><!-- Statement -->
         </div><!-- End of Hero Image -->
 

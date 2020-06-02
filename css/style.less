@@ -36,7 +36,7 @@ nav {
         color: @color1;
         font-family: 'Lalezar', cursive;
         font-size: 2.5em;
-        
+
         a:hover {
             color: @darkColor2;
         }
@@ -53,11 +53,18 @@ main {
     overflow-x: hidden;
 
     .heroImage {
+        background: linear-gradient(@darkColor 15%, transparent), url('../images/burrito.jpg') center;
+        background-repeat: no-repeat;
+        background-size: cover cover;
+        background-attachment: fixed;
         color: @lightColor;
-        border-radius: 0;
+        display: inline-block;
+        padding: 0px 100px;
+        height: 100%;
+        width: 100%;
         text-align: center;
 
-        .leader {
+        h1 {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -86,6 +93,14 @@ main {
         .twoSpacing {
             padding: 2% 20px;
             color: @darkColor;
+        }
+
+        .twoImage {
+            background-image: url('../images/burrito02.jpg');
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: cover;
+            background-attachment: fixed;
         }
     }
 }
@@ -147,13 +162,6 @@ footer {
 
     .spacerBoi {
         padding-left: 20px;
-    }
-
-}
-
-@media screen and (max-width: 481px) {
-    .leader {
-        padding: 0 10px;
     }
 
 }

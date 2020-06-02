@@ -67,11 +67,18 @@ main {
   overflow-x: hidden;
 }
 main .heroImage {
+  background: linear-gradient(#000000 15%, transparent), url('../images/burrito.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  background-attachment: fixed;
   color: #ffffff;
-  border-radius: 0;
+  display: inline-block;
+  padding: 0px 100px;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
-main .heroImage .leader {
+main .heroImage h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -96,6 +103,13 @@ main .two {
 main .two .twoSpacing {
   padding: 2% 20px;
   color: #000000;
+}
+main .two .twoImage {
+  background-image: url('../images/burrito02.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 /* Footer */
 footer {
@@ -144,11 +158,6 @@ footer .google-maps iframe {
 }
 footer .spacerBoi {
   padding-left: 20px;
-}
-@media screen and (max-width: 481px) {
-  .leader {
-    padding: 0 10px;
-  }
 }
 @media screen and (max-width: 768px) {
   .twoImage {
