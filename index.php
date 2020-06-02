@@ -7,11 +7,11 @@
     <meta name="generator" content="Jekyll v3.8.6">
     <title>Burrito Masala : Downtown Portland Food Cart serving southern Indian and Mexican Foods</title>
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/helper.css" rel="stylesheet" type="text/css">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="fontawesome/css/all.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="js/command.js"></script>
