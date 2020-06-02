@@ -104,10 +104,8 @@ main .two .twoSpacing {
   padding: 2% 20px;
   color: #000000;
 }
-main .two .twoImage {
-  background-image: url('../images/burrito02.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom center;
+main .twoImage {
+  background: url('../images/burrito02.jpg') center;
   background-size: cover;
   background-attachment: fixed;
 }
